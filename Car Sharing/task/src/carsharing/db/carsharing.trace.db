@@ -1,0 +1,6 @@
+2022-09-28 22:20:10 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'null' (CUSTOMER: ""RENTED_CAR_ID"" INT DEFAULT NULL)"; SQL statement:
+UPDATE CUSTOMER SET RENTED_CAR_ID = 'null'WHERE ID = 1 [22018-200]
+2022-09-28 22:23:43 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "UPDATE CUSTOMER SET RENTED_CAR_ID = NULLWHERE ID[*] = 1"; SQL statement:
+UPDATE CUSTOMER SET RENTED_CAR_ID = NULLWHERE ID = 1 [42000-200]
